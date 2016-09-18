@@ -22,9 +22,18 @@ body {
   background: #e2e2e2;
 }
 
+section {
+  vertical-align: middle;
+}
+
 .content {
   display: inline-block;
-  padding: 0em 1.5em;
+  padding: 0.5em 0em;
+}
+
+.text {
+  padding: 0 1.5em;
+  text-align: left;
 }
 
 .img-flex {
@@ -41,14 +50,16 @@ h2 {
   text-decoration: none;
   padding: 0.5em 0.75em;
   display: inline-block;
-  margin: 0.5em 2em;
-  font-size: 0.875rem;
-  border: solid 0px;
-}
+  margin: 0.5em 0.5em;
+  font-size: 0.875rem;}
 
 .btn-buy {
   background-color: #555;
   color: #e2e2e2;
+}
+
+.btn:hover {
+  background-color: #555;
 }
 
 @media only screen and (min-width: 25em) {
@@ -70,12 +81,10 @@ h2 {
   .photo {
     width: 50%;
     display: inline;
-    max-width: 50em;
   }
 
   .content {
     width: 45%;
-    max-width: 50em;
     display: inline;
   }
 
