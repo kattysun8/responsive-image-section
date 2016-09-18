@@ -63,7 +63,7 @@ a {
 
 .btn-buy {
   background-color: #555;
-  color: #e2e2e2;
+  color: #fff;
 }
 
 a:hover {
@@ -111,10 +111,25 @@ a:hover {
 
   .content {
     margin: 2em 0 0 0;
+    vertical-align: middle;
   }
 
   .photo {
-    margin: 1.75em 0.5em 0 0;
+    margin: 1.85em 0.5em 0 0;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .btn-buy {
+    font-size: 1rem;
+    margin-left: 1.5em;
+  }
+
+  h1 {
+    padding-bottom: 0.2em;
+    margin-top: 1.1em;
   }
 
 }
@@ -129,21 +144,13 @@ a:hover {
   .content {
     vertical-align: middle;
     margin-left: 9em;
-    max-width: 38%;
+    max-width: 37%;
+    margin-top: 2.5em;
   }
 
   .photo {
-    max-width: 38%;
-    margin-right: 9em;
-  }
-
-  .btn-buy {
-    font-size: 1rem;
-    margin-left: 1.5em;
-  }
-
-  h2 {
-    font-size: 1rem;
+    max-width: 36%;
+    margin-right: 10em;
   }
 
 }
