@@ -20,6 +20,7 @@ html {
 body {
   margin: 0;
   background-color: #e2e2e2;
+  position: relative;
 }
 
 section {
@@ -89,15 +90,15 @@ a {
   .photo {
     max-width: 49%;
     display: block;
-    float: right;
-    margin: 1.75em 0.5em 0 0;
+    position: absolute;
+    right: 0em;
   }
 
   .content {
     max-width: 49%;
     display: block;
-    float: left;
-    margin: 1.75em 0 0 0;
+    position: absolute;
+
   }
 
 }
@@ -107,6 +108,14 @@ a {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .content {
+    margin: 2em 0 0 0;
+  }
+
+  .photo {
+    margin: 1.75em 0.5em 0 0;
   }
 
 }
