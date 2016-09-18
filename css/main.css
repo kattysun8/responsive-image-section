@@ -67,8 +67,8 @@ a {
   color: #e2e2e2;
 }
 
-.btn: hover {
-  background-color: #555;
+a:hover {
+  background-color: #000;
 }
 
 @media only screen and (min-width: 25em) {
@@ -91,7 +91,7 @@ a {
     max-width: 49%;
     display: block;
     position: absolute;
-    right: 0em;
+    right: 0;
   }
 
   .content {
@@ -129,6 +129,11 @@ a {
 
   .content {
     vertical-align: middle;
+    max-width: 40%;
+  }
+
+  .photo {
+    max-width: 40%;
   }
 
 }
