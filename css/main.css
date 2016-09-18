@@ -20,7 +20,6 @@ html {
 body {
   margin: 0;
   background-color: #e2e2e2;
-  position: relative;
 }
 
 section {
@@ -129,11 +128,22 @@ a:hover {
 
   .content {
     vertical-align: middle;
-    max-width: 40%;
+    margin-left: 9em;
+    max-width: 38%
   }
 
   .photo {
-    max-width: 40%;
+    max-width: 38%;
+    margin-right: 9em;
+  }
+
+  .btn-buy {
+    font-size: 1rem;
+    margin-left: 1.5em;
+  }
+
+  h2 {
+    font-size: 1rem;
   }
 
 }
