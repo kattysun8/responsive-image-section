@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  background: #e2e2e2;
+  background-color: #e2e2e2;
 }
 
 section {
@@ -28,7 +28,7 @@ section {
 
 .content {
   display: inline-block;
-  padding: 0.5em 0em;
+  padding: 0.5em 0;
 }
 
 .text {
@@ -37,21 +37,29 @@ section {
 }
 
 .img-flex {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
 h2 {
   font-size: 0.875rem;
+  margin: 0;
 }
 
-.btn {
+p {
+  margin: 0 0 1em 0;
+}
+
+a {
   border-radius: 4px;
   text-decoration: none;
   padding: 0.5em 0.75em;
   display: inline-block;
-  margin: 0.5em 0.5em;
-  font-size: 0.875rem;}
+  margin: 0.5em 1.75em;
+  font-size: 0.875rem;
+  text-align: center;
+  background-color: #555;
+}
 
 .btn-buy {
   background-color: #555;
@@ -79,13 +87,15 @@ h2 {
   }
 
   .photo {
-    width: 50%;
-    display: inline;
+    max-width: 49%;
+    display: block;
+    float: right;
   }
 
   .content {
     width: 45%;
-    display: inline;
+    display: block;
+    float: left;
   }
 
 }
@@ -104,6 +114,11 @@ h2 {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .photo {
+    float: right;
+    width: 49%;
   }
 
 }
