@@ -23,7 +23,7 @@ body {
 }
 
 section {
-  vertical-align: middle;
+  text-align: left;
 }
 
 .content {
@@ -41,13 +41,22 @@ section {
   width: 100%;
 }
 
-h2 {
-  font-size: 0.875rem;
+h1 {
   margin: 0;
+  padding: 1rem 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 0 1rem;
 }
 
 p {
-  margin: 0 0 1em 0;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.btn-wrapper {
+  padding: 0.5rem;
 }
 
 a {
@@ -56,12 +65,12 @@ a {
   padding: 0.5em 0.75em;
   display: inline-block;
   margin: 0.5em 1.75em;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   text-align: center;
   background-color: #555;
 }
 
-.btn-buy {
+.btn {
   background-color: #555;
   color: #fff;
 }
@@ -86,18 +95,14 @@ a:hover {
     line-height: 1.4;
   }
 
-  .photo {
-    max-width: 49%;
-    display: block;
-    position: absolute;
-    right: 0;
+  .photo, .content {
+    display: inline-block;
+    max-width: 49.4999%;
+    vertical-align: middle;
   }
 
-  .content {
-    max-width: 49%;
-    display: block;
-    position: absolute;
-
+  h1 {
+    padding-top: 2rem;
   }
 
 }
@@ -109,48 +114,26 @@ a:hover {
     line-height: 1.5;
   }
 
-  .content {
-    margin: 2em 0 0 0;
-    vertical-align: middle;
-  }
-
-  .photo {
-    margin: 1.85em 0.5em 0 0;
-  }
-
-  h2 {
-    font-size: 1rem;
-  }
-
-  .btn-buy {
-    font-size: 1rem;
-    margin-left: 1.5em;
+  section {
+    padding: 2rem 0;
   }
 
   h1 {
-    padding-bottom: 0.2em;
-    margin-top: 1.1em;
+    padding-top: 1rem;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
   }
 
-  .content {
-    vertical-align: middle;
-    margin-left: 9em;
-    max-width: 37%;
-    margin-top: 2.5em;
+  .text-wrapper, .img-wrapper {
+    max-width: 33.3333%;
   }
 
-  .photo {
-    max-width: 36%;
-    margin-right: 10em;
+  section {
+    text-align: center;
   }
-
 }
