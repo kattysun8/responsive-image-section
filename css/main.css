@@ -116,17 +116,11 @@ a:hover {
     font-size: 130%;
   }
 
-  .text-wrapper, .img-wrapper {
+  .content, .photo {
     max-width: 33.3333%;
   }
 
   section {
     text-align: center;
-    max-width: 70%;
-    margin-left: 10em;
-  }
-
-  .text {
-    text-align: left;
   }
 }
